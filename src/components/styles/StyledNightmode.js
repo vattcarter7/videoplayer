@@ -1,15 +1,13 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const StyledNightmode = styled.div`
-  font-family: "Hind", sans-serif;
+  font-family: 'Hind', sans-serif;
   font-weight: 800;
   font-size: 1.6em;
-  color: ${props => props.theme.color};
+  color: ${(props) => props.theme.color};
   padding: 0;
   margin: 20px;
 
-  /* CSS taken from https://www.w3schools.com/howto/howto_css_switch.asp */
-  /* The switch - the box around the slider */
   .switch {
     position: relative;
     display: inline-block;
@@ -39,7 +37,7 @@ const StyledNightmode = styled.div`
 
   .slider:before {
     position: absolute;
-    content: "";
+    content: '';
     height: 16px;
     width: 16px;
     left: 4px;
